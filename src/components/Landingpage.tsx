@@ -8,7 +8,7 @@ const LandingPage = () => {
   const [animate, setAnimate] = useState(false);
 
   // Words to cycle through
-  const words = ["HR procesy", "Sales", "Copywriting", "Tvorbu"];
+  const words = ["Tvorbu", "Sales", "Copywriting", "HR procesy"];
 
   // Cycle through words with smooth animation
   useEffect(() => {
