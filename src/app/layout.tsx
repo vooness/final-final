@@ -1,10 +1,14 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// src/app/layout.tsx
+
 import "./globals.css";
+import type { Metadata } from "next";
+import type { ReactNode } from "react";
+import { Inter } from "next/font/google";
 
 // Načtení fontu Inter
 const inter = Inter({ subsets: ["latin"] });
 
+// ---- METADATA ----
 export const metadata: Metadata = {
   // Základní meta
   title: "AI Andrt",
@@ -40,22 +44,17 @@ export const metadata: Metadata = {
   authors: [{ name: "Martin Andrt", url: "https://www.ai-andrt.cz/" }],
   creator: "Martin Andrt",
   publisher: "Martin Andrt",
-  // Důležité pro vyhledávače (index/follow)
   robots: {
     index: true,
     follow: true,
   },
-  // Nastavení základní URL (ovlivňuje také generování kanonických URL u podstránek)
   metadataBase: new URL("https://www.ai-andrt.cz"),
   alternates: {
     canonical: "/",
   },
-  // Nastavení favicon či dalších ikon (podle potřeby)
   icons: {
     icon: "/icons/icons8-ai-color-32.png",
-    // apple: "/icons/apple-touch-icon.png", // Pokud chcete Apple touch ikonku
   },
-  // Nastavení barevného tématu pro mobilní prohlížeče (není nezbytné, ale občas se hodí)
   themeColor: "#ffffff",
 
   // Open Graph
@@ -87,3 +86,16 @@ export const metadata: Metadata = {
     creator: "@tvůjTwitterHandle", // upravte na svůj Twitter handle
   },
 };
+
+// ---- LAYOUT KOMPONENTA ----
+export default function RootLayout({
+  children,
+}: {
+  children: ReactNode;
+}) {
+  return (
+    <html lang="cs">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
