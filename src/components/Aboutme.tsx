@@ -265,7 +265,7 @@ export default function AboutMeBento() {
             </div>
           </div>
 
-          <h3 className="text-5xl font-bold text-blue-400 mb-8">Martin Andrt</h3>
+          <h3 className="text-5xl text-center font-bold text-blue-400 mb-8">Martin Andrt</h3>
           
           <p className="text-base text-gray-400 text-center leading-relaxed">
       <strong>Konzultant a nadšenec do AI</strong>, který neustále zkoumá svět digitálních technologií a trendů. Od
