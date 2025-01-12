@@ -56,12 +56,12 @@ const Footer = () => {
   <h4 className="text-lg font-bold text-white mb-4">Rychlé odkazy</h4>
   <ul className="space-y-2">
     <li>
-      <a href="#about" className="hover:text-blue-400 transition">
+      <a href="#landing" className="hover:text-blue-400 transition">
         Domů
       </a>
     </li>
     <li>
-      <a href="#about" className="hover:text-blue-400 transition">
+      <a href="#about-me" className="hover:text-blue-400 transition">
         O mně
       </a>
     </li>
@@ -71,12 +71,12 @@ const Footer = () => {
       </a>
     </li>
     <li>
-      <a href="#why-ai" className="hover:text-blue-400 transition">
+      <a href="#aibussines" className="hover:text-blue-400 transition">
         Proč AI
       </a>
     </li>
     <li>
-      <a href="#collaboration" className="hover:text-blue-400 transition">
+      <a href="#timeline" className="hover:text-blue-400 transition">
         Spolupráce
       </a>
     </li>
