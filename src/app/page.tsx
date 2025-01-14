@@ -15,6 +15,7 @@ import AiProcessTimeline from "@/components/AiProcessTimeline";
 import Calculator from "@/components/calculator";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import CookieBanner from "@/components/Cookies";
 
 const Page: React.FC = () => {
   return (
@@ -61,6 +62,9 @@ const Page: React.FC = () => {
       </div>
 
       <Footer />
+
+      {/* Cookie Banner */}
+      <CookieBanner />
     </div>
   );
 };

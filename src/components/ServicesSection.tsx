@@ -8,7 +8,7 @@ const services = [
   {
     title: "Ukáži, jak s AI mluvit",
     description:
-      "Nemám na mysli základy promptování. Mluvím o stylu celé komunikace, kteoru vedeme s AI. Není to jen o jednom dobrém promptu, je to o celkovém způsobu, jakým s AI jednáme. Zná kontext? Ví, co je skutečné očekávání? Má všechna data? Jaký styl komunikace má vést? Správné otázky a flow = kýžený výsledek.",
+      "Nemám na mysli základy promptování. Mluvím o stylu celé komunikace, kterou vedeme s AI. Není to jen o jednom dobrém promptu, je to o celkovém způsobu, jakým s AI jednáme. Zná kontext? Ví, co je skutečné očekávání? Má všechna data? Jaký styl komunikace má vést? Správné otázky a flow = kýžený výsledek.",
   },
   {
     title: "Automatizace rutinních úkolů",

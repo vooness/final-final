@@ -19,9 +19,9 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/f
 // Statistika
 const stats = [
   { label: "Projekty", value: "20+" },
-  { label: "Klienti", value: "10+" },
+  { label: "Spolupráce", value: "10+" },
   { label: "Let zkušeností", value: "5+" },
-  { label: "Koček", value: "4+" },
+  { label: "Kočky", value: "4+" },
 ];
 
 // Testimonialy
